@@ -1,0 +1,34 @@
+/* src/components/WeatherCard.css */
+
+.weather-card {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 1; 
+  }
+  
+.weather-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;    
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-position: right;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+.sun-card::after {
+    background-image: url('../images/sun.png');
+}
+
+.rain-card::after {
+    background-image: url('../images/cloud.png');
+}
+
+  
