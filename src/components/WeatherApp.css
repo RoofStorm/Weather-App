@@ -1,0 +1,23 @@
+.app-card{
+    margin-top: 20px;
+    padding: 20px;
+    background: transparent;
+}
+
+.app-card-input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-card-btn-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-search{
+     background: rgba(108, 64, 181, 1);
+     height: 38px;
+     border-radius: 20px !important;
+}

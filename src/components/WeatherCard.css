@@ -6,7 +6,10 @@
     margin: 20px;
     border-radius: 8px;
     z-index: 1; 
-  }
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 20px;
+}
   
 .weather-card::after {
     content: '';
@@ -21,6 +24,11 @@
     z-index: -1;
     border-radius: 8px;
     background-repeat: no-repeat;
+}
+
+.weather-card-temp{
+    margin: 0;
+    font-size: 90px;
 }
 
 .sun-card::after {

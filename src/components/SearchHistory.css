@@ -1,0 +1,27 @@
+
+.history-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.history-card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.history-card-content button{
+    background: rgba(255, 255, 255, 1);
+    height: 34px;
+    width: 34px;
+}
+
+.history-card-content button:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px);    
+}
